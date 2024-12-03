@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description/>
+        <field>service_offering</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Sync Classification for ServiceOffering</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+   var cmdbsysID = newValue;
+    var ga = new GlideAjax('CiServiceUtil');
+    ga.addParam('sysparm_name', "getParent");
+    ga.addParam('sysparm_cmdbName', cmdbsysID);
+    ga.getXML(myAnswer);
+
+    function myAnswer(response) {
+        var answer = response.responseXML.documentElement.getAttribute('answer');
+        if (answer) {
+            var theParents = JSON.parse(answer);
+            if (g_form.getValue("u_it_servicecluster") != theParents[2]) {
+                g_form.setValue("u_it_servicecluster", theParents[2]);
+            }
+            if (g_form.getValue("u_it_servicegroup") != theParents[1]) {
+                g_form.setValue("u_it_servicegroup", theParents[1]);
+            }
+            if (g_form.getValue("business_service") != theParents[0]) {
+                g_form.setValue("business_service", theParents[0]);
+            }
+        } else {
+            //nothing
+        }
+    }
+   
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:03:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a94fedbcc3561210d511bd73e40131a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Sync Classification for ServiceOffering</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_update_name>sys_script_client_a94fedbcc3561210d511bd73e40131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:04:04</sys_updated_on>
+        <table>task</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

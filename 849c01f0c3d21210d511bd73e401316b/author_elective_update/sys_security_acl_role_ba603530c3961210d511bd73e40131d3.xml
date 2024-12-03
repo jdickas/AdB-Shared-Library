@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:06:43</sys_created_on>
+        <sys_id>ba603530c3961210d511bd73e40131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CiServiceUtil.itil</sys_name>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_security_acl display_value="CiServiceUtil">6e603530c3961210d511bd73e40131cd</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ba603530c3961210d511bd73e40131d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:06:43</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</application>
+        <file_path/>
+        <instance_id>a1f2b85cdbfa711039639027c59619b6</instance_id>
+        <instance_name>dev223868</instance_name>
+        <name>sys_security_acl_role_ba603530c3961210d511bd73e40131d3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-03 13:06:43</sys_created_on><sys_id>ba603530c3961210d511bd73e40131d3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CiServiceUtil.itil</sys_name><sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package><sys_policy/><sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope><sys_security_acl display_value="CiServiceUtil">6e603530c3961210d511bd73e40131cd</sys_security_acl><sys_update_name>sys_security_acl_role_ba603530c3961210d511bd73e40131d3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-03 13:06:43</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1307837538</payload_hash>
+        <record_name>CiServiceUtil.itil</record_name>
+        <reverted_from/>
+        <source>67d6c63ec3861210d511bd73e4013139</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:06:43</sys_created_on>
+        <sys_id>f260b530c3961210d511bd73e401314d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938ca1550c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:06:43</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>366035308c96121099b2a783eefb18d7</update_guid>
+        <update_guid_history>366035308c96121099b2a783eefb18d7:1307837538</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CiServiceUtil.itil">7cd07170c3961210d511bd73e401310c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:08:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>027b537f49444d67801257b89fbe7e89</sys_id>
+        <sys_metadata>ba603530c3961210d511bd73e40131d3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CiServiceUtil.itil</sys_name>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_parent display_value="CiServiceUtil">6e603530c3961210d511bd73e40131cd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_scope_delete display_value="">304e0c308f6c4110895f5cfc059eab04</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ba603530c3961210d511bd73e40131d3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ba603530c3961210d511bd73e40131d3">f260b530c3961210d511bd73e401314d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:08:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

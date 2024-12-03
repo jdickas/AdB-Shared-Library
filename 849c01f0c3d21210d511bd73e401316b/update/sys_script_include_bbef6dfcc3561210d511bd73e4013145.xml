@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.CiServiceUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CiServiceUtil</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var CiServiceUtil = Class.create();
+CiServiceUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getParent: function() {
+        var cmdbParent1;
+        var cmdbParent2;
+        var cmdbParent3;
+        var theParents = [];
+        var cmdbName = this.getParameter('sysparm_cmdbName');
+        var grcmdb = new GlideRecord("cmdb_ci_service");
+        grcmdb.get(cmdbName);
+        cmdbParent1 = grcmdb.parent;  
+
+        theParents.push(cmdbParent1.toString());        
+        cmdbParent2 = grcmdb.parent.parent;
+        theParents.push(cmdbParent2.toString());        
+        cmdbParent3 = grcmdb.parent.parent.parent;
+        theParents.push(cmdbParent3.toString());        
+        //convert array to JSON string
+        var jsonTheParents = JSON.stringify(theParents);
+
+        return jsonTheParents;
+    },
+	getParentcmdbForChange: function() {
+        var changeRequestcmdb;
+              
+        var changeRequest = this.getParameter('sysparm_changeRequest');
+        var grchange = new GlideRecord("change_request");
+        grchange.get(changeRequest);
+        changeRequestcmdb = grchange.cmdb_ci;  
+
+        
+
+        return changeRequestcmdb;
+    },
+
+
+
+    type: 'CiServiceUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:06:42</sys_created_on>
+        <sys_id>bbef6dfcc3561210d511bd73e4013145</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CiServiceUtil</sys_name>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_update_name>sys_script_include_bbef6dfcc3561210d511bd73e4013145</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:06:42</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>bbef6dfcc3561210d511bd73e4013145</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-03 13:06:41</sys_created_on>
+        <sys_id>d260393cc3561210d511bd73e40131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-03 13:06:41</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
