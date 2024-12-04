@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="e908974dc3d61210d511bd73e4013178" extends="dl_matcher" label="Autobahn Assignment Table" max_length="40" name="u_autobahn_assignment_table" type="collection">
+        <element label="Service" max_length="32" name="u_service" reference="cmdb_ci_service" type="reference"/>
+        <element choice="1" label="Channel" max_length="40" name="u_channel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Self-Service-Portal" sequence="3" value="self-service"/>
+                <element inactive_on_update="false" label="Email" sequence="1" value="email"/>
+                <element inactive_on_update="false" label="Walk-in" sequence="6" value="walk-in"/>
+                <element inactive_on_update="false" label="External System" sequence="4" value="external_system"/>
+                <element inactive_on_update="false" label="Phone" sequence="2" value="phone"/>
+                <element inactive_on_update="false" label="Monitoring" sequence="5" value="monitoring"/>
+            </choice>
+        </element>
+        <element label="Incident Assignment Group" max_length="32" name="u_incident_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="IT-Servicecluster" max_length="32" name="u_it_servicecluster" reference="cmdb_ci_service" type="reference"/>
+        <element label="Problem Assignment Group" max_length="32" name="u_problem_assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="IT-Servicecategory" max_length="32" name="u_it_servicecategory" reference="cmdb_ci_service" type="reference"/>
+        <element label="IT-Servicegroup" max_length="32" name="u_it_servicegroup" reference="cmdb_ci_service" type="reference"/>
+        <element label="Service offering" max_length="32" name="u_service_offering" reference="service_offering" type="reference"/>
+        <element label="Configuration Item" max_length="32" name="u_configuration_item" reference="cmdb_ci" type="reference"/>
+        <element label="Change Assignment Group" max_length="32" name="u_change_assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="u_change_assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="u_configuration_item"/>
+        </index>
+        <index name="index3">
+            <element name="u_incident_assignment_group"/>
+        </index>
+        <index name="index4">
+            <element name="u_it_servicecategory"/>
+        </index>
+        <index name="index5">
+            <element name="u_it_servicecluster"/>
+        </index>
+        <index name="index6">
+            <element name="u_it_servicegroup"/>
+        </index>
+        <index name="index7">
+            <element name="u_problem_assignment_group"/>
+        </index>
+        <index name="index8">
+            <element name="u_service"/>
+        </index>
+        <index name="index9">
+            <element name="u_service_offering"/>
+        </index>
+    </element>
+</database>

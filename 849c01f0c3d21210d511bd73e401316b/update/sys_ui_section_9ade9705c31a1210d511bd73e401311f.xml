@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="9ade9705c31a1210d511bd73e401311f" sys_domain="global" table="u_autobahn_assignment_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>d6de9705c31a1210d511bd73e4013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_change_assignment_group</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>56de9705c31a1210d511bd73e4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_channel</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>dade9705c31a1210d511bd73e4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_configuration_item</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>52de9705c31a1210d511bd73e4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_incident_assignment_group</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>d6de9705c31a1210d511bd73e4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_it_servicecategory</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>5ede9705c31a1210d511bd73e4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>1ede9785c31a1210d511bd73e40131c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>92de9785c31a1210d511bd73e40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_it_servicecluster</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>1ade9785c31a1210d511bd73e40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_it_servicegroup</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>9ede9785c31a1210d511bd73e40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>16de9785c31a1210d511bd73e40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_offering</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>9ade9785c31a1210d511bd73e40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_problem_assignment_group</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>12de9785c31a1210d511bd73e40131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_id>96de9785c31a1210d511bd73e40131c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_autobahn_assignment_table" sys_domain="global" view="Default view">9ade9705c31a1210d511bd73e401311f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_autobahn_assignment_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-04 15:47:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ade9705c31a1210d511bd73e401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_autobahn_assignment_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+            <sys_update_name>sys_ui_section_9ade9705c31a1210d511bd73e401311f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-04 15:47:40</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

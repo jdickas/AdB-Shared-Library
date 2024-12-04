@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_autobahn_assignment_table">
+    <u_autobahn_assignment_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sys_class_name>u_autobahn_assignment_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 15:51:49</sys_created_on>
+        <sys_id>394f5b85c31a1210d511bd73e40131ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_update_name>u_autobahn_assignment_table_394f5b85c31a1210d511bd73e40131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 15:54:55</sys_updated_on>
+        <u_change_assignment_group display_value="AdB Change Process Group" name="AdB Change Process Group">b1fe5b85c31a1210d511bd73e40131a4</u_change_assignment_group>
+        <u_channel/>
+        <u_configuration_item/>
+        <u_incident_assignment_group display_value="AdB Incident Process Group" name="AdB Incident Process Group">841f1705c31a1210d511bd73e4013111</u_incident_assignment_group>
+        <u_it_servicecategory/>
+        <u_it_servicecluster display_value="Anwendungen">f97709e0c35a1210d511bd73e4013135</u_it_servicecluster>
+        <u_it_servicegroup display_value="Mobile Apps">31c989a4c35a1210d511bd73e40131c9</u_it_servicegroup>
+        <u_problem_assignment_group display_value="AdB Problem Process Group" name="AdB Problem Process Group">771fdb85c31a1210d511bd73e4013171</u_problem_assignment_group>
+        <u_service display_value="Standard Apps">688a4de4c35a1210d511bd73e4013161</u_service>
+        <u_service_offering display_value="Edge Browser">b6a91b1cc3121210d511bd73e4013183</u_service_offering>
+    </u_autobahn_assignment_table>
+</record_update>

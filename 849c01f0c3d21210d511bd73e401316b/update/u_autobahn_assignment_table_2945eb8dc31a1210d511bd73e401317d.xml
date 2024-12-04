@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="u_autobahn_assignment_table">
+    <u_autobahn_assignment_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sys_class_name>u_autobahn_assignment_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-04 16:17:46</sys_created_on>
+        <sys_id>2945eb8dc31a1210d511bd73e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
+        <sys_update_name>u_autobahn_assignment_table_2945eb8dc31a1210d511bd73e401317d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-04 16:17:46</sys_updated_on>
+        <u_change_assignment_group display_value="Change Management" name="Change Management">a715cd759f2002002920bde8132e7018</u_change_assignment_group>
+        <u_channel/>
+        <u_configuration_item/>
+        <u_incident_assignment_group display_value="Incident Management" name="Incident Management">12a586cd0bb23200ecfd818393673a30</u_incident_assignment_group>
+        <u_it_servicecategory/>
+        <u_it_servicecluster display_value="Anwendungen">f97709e0c35a1210d511bd73e4013135</u_it_servicecluster>
+        <u_it_servicegroup display_value="AutobahnOS">31c989a4c35a1210d511bd73e40131d9</u_it_servicegroup>
+        <u_problem_assignment_group display_value="Problem Solving" name="Problem Solving">6fcd3b573b331300ad3cc9bb34efc447</u_problem_assignment_group>
+        <u_service display_value="Basissystem">3c8a4de4c35a1210d511bd73e4013176</u_service>
+        <u_service_offering display_value="Geodienst">68b9db1cc3121210d511bd73e4013171</u_service_offering>
+    </u_autobahn_assignment_table>
+</record_update>
