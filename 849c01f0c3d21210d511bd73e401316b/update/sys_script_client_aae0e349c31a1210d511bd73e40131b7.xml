@@ -34,7 +34,7 @@
         //var serviceCategory = g_form.getValue("u_it_servicecategory");
         var service = g_form.getValue("business_service");
         var serviceOffering = g_form.getValue("service_offering");
-        var configurationItem = g_form.getValue("cmdb_ci");
+        //var configurationItem = g_form.getValue("cmdb_ci");
 
 
         // g_form.addErrorMessage("category is being changed" +category);
@@ -48,7 +48,7 @@
         // ga.addParam('sysparm_serviceCategory', serviceCategory);
         ga.addParam('sysparm_service', service);
         ga.addParam('sysparm_serviceOffering', serviceOffering);
-        ga.addParam('sysparm_configurationItem', configurationItem);
+        //ga.addParam('sysparm_configurationItem', configurationItem);
 
         ga.getXML(myAnswer);
     }, 300);
@@ -71,7 +71,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aae0e349c31a1210d511bd73e40131b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AssignmentRule-Serviceoffering</sys_name>
         <sys_overrides/>
         <sys_package display_value="AdB Shared Library" source="849c01f0c3d21210d511bd73e401316b">849c01f0c3d21210d511bd73e401316b</sys_package>
@@ -79,7 +79,7 @@
         <sys_scope display_value="AdB Shared Library">849c01f0c3d21210d511bd73e401316b</sys_scope>
         <sys_update_name>sys_script_client_aae0e349c31a1210d511bd73e40131b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-04 15:57:45</sys_updated_on>
+        <sys_updated_on>2024-12-06 21:34:40</sys_updated_on>
         <table>task</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
